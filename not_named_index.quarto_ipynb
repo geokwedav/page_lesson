@@ -5,18 +5,18 @@
       "metadata": {},
       "source": [
         "---\n",
-        "title: \"Gapminder: Example Quarto Report\"\n",
+        "title: \"Gapminder: Another Test Quarto Report\"\n",
         "author: \"The GRAPH Courses\"\n",
         "format: html\n",
         "---\n",
         "\n",
         "This is a Quarto report with a table, a scatter plot, and a map using the Gapminder dataset, Plotly, and itables.\n",
         "\n",
-        "::: {.panel-tabset} \n",
+        "\n",
         "\n",
         "## Table"
       ],
-      "id": "76a7b781"
+      "id": "c97f89c8"
     },
     {
       "cell_type": "code",
@@ -32,7 +32,7 @@
         "# Display table\n",
         "show(gapminder.head())"
       ],
-      "id": "b7e6ae49",
+      "id": "d5d0e5c6",
       "execution_count": null,
       "outputs": []
     },
@@ -42,7 +42,7 @@
       "source": [
         "## Scatter Plot"
       ],
-      "id": "7144a36d"
+      "id": "d28d9fb8"
     },
     {
       "cell_type": "code",
@@ -56,7 +56,7 @@
         "    title=\"GDP vs Life Expectancy (2007)\"\n",
         ")"
       ],
-      "id": "85e87fb3",
+      "id": "dc370308",
       "execution_count": null,
       "outputs": []
     },
@@ -66,7 +66,7 @@
       "source": [
         "## Map"
       ],
-      "id": "89fd4ef4"
+      "id": "e6d14dbc"
     },
     {
       "cell_type": "code",
@@ -80,7 +80,7 @@
         "    title=\"Life Expectancy (2007)\",\n",
         ")"
       ],
-      "id": "ce19286d",
+      "id": "59e5962a",
       "execution_count": null,
       "outputs": []
     },
@@ -88,11 +88,9 @@
       "cell_type": "markdown",
       "metadata": {},
       "source": [
-        ":::\n",
-        "\n",
         "Sample quarto report from the GRAPH Courses python bootcamp (thegraphcourses.org/pbb)."
       ],
-      "id": "2779f434"
+      "id": "ef1336e5"
     }
   ],
   "metadata": {
